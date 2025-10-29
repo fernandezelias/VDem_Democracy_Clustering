@@ -1,0 +1,20 @@
+# ==========================================================
+# VDem_Democracy_Clustering - requirements.txt
+# ==========================================================
+
+# --- Data Analysis & ML ---
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+scipy==1.13.1
+
+# --- Visualization ---
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- Jupyter / Notebooks ---
+jupyter==1.0.0
+ipykernel==6.29.5
+
+# --- Performance / CSV Large Files ---
+pyarrow==16.1.0
