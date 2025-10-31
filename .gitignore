@@ -31,7 +31,7 @@ Thumbs.db
 .cursorindexingignore
 
 # --- Datos y artefactos de ML ---
-# Ignoramos todos los datasets grandes y crudos
+# Ignorar todos los datos crudos
 data/**
 datasets/**
 *.sav
@@ -40,7 +40,7 @@ datasets/**
 *.xlsx
 *.csv
 
-# ✅ Re-incluir estructura mínima de carpetas
+# Re-incluir estructura mínima de carpetas
 !data/
 !data/raw/
 !data/processed/
@@ -48,11 +48,11 @@ datasets/**
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# ✅ EXCEPCIONES: permitir futuros datasets *procesados pequeños*
+# Permitimos archivos procesados pequeños
 !data/processed/*.csv
 !data/processed/*.parquet
 
-# ❌ Ignorar explícitamente dataset grande V-Dem
+# Ignorar explícitamente dataset grande V-Dem
 data/raw/V-Dem-CY-Core-v15.csv
 
 # --- Modelos y salidas ---
