@@ -1,60 +1,69 @@
-    # ==========================================================
-    # VDem_Democracy_Clustering - .gitignore
-    # ==========================================================
+# ==========================================================
+# VDem_Democracy_Clustering - .gitignore
+# ==========================================================
 
-    # --- Envs & credenciales ---
-    .env
-    *.env
-    .venv/
-    venv/
-    ENV/
-    env/
+# --- Envs & credenciales ---
+.env
+*.env
+.venv/
+venv/
+env/
+ENV/
 
-    # --- Caché de Python ---
-    __pycache__/
-    *.py[cod]
-    *$py.class
+# --- Caché de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
 
-    # --- Notebooks ---
-    .ipynb_checkpoints/
+# --- Notebooks ---
+.ipynb_checkpoints/
 
-    # --- Logs ---
-    logs/
-    *.log
+# --- Logs ---
+logs/
+*.log
 
-    # --- IDE / Sistema ---
-    .vscode/
-    .idea/
-    .DS_Store
-    Thumbs.db
-    .cursorignore
-    .cursorindexingignore
+# --- IDE / Sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.cursorignore
+.cursorindexingignore
 
-    # --- Datos y artefactos de ML ---
-    # Ignoramos datos por defecto
-    data/**
-    datasets/**
-    *.sav
-    *.dta
-    *.parquet
-    *.xlsx
-    *.csv
+# --- Datos y artefactos de ML ---
+# Ignoramos todos los datasets grandes y crudos
+data/**
+datasets/**
+*.sav
+*.dta
+*.parquet
+*.xlsx
+*.csv
 
-    # Re-incluir estructura mínima
-    !data/.gitkeep
-    !datasets/.gitkeep
-    !data/sample/**
-    !datasets/sample/**
+# ✅ Re-incluir estructura mínima de carpetas
+!data/
+!data/raw/
+!data/processed/
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
-    # --- Modelos y salidas ---
-    models/
-    *.pkl
-    *.joblib
-    outputs/
-    figures/
-    reports/
+# ✅ EXCEPCIONES: permitir futuros datasets *procesados pequeños*
+!data/processed/*.csv
+!data/processed/*.parquet
 
-    # --- Tracking local (si se usa) ---
-    mlruns/
-    .mlflow/
-    metrics.json
+# ❌ Ignorar explícitamente dataset grande V-Dem
+data/raw/V-Dem-CY-Core-v15.csv
+
+# --- Modelos y salidas ---
+models/
+*.pkl
+*.joblib
+outputs/
+figures/
+reports/
+
+# --- Tracking local (MLflow / DVC) ---
+mlruns/
+.mlflow/
+metrics.json
