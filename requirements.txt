@@ -11,7 +11,6 @@ scipy==1.13.1
 # --- Visualization ---
 matplotlib==3.9.2
 seaborn==0.13.2
-yellowbrick==1.5
 
 # --- Jupyter / Notebooks ---
 jupyter==1.0.0
