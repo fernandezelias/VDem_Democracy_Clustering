@@ -12,7 +12,8 @@ scipy==1.13.1
 matplotlib==3.9.2
 seaborn==0.13.2
 
-# --- Información geográfica ---
+# --- Geo & Country Codes ---
+geopandas==0.14.3
 pycountry==24.6.1
 
 # --- Jupyter / Notebooks ---
