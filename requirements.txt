@@ -12,6 +12,9 @@ scipy==1.13.1
 matplotlib==3.9.2
 seaborn==0.13.2
 
+# --- Información geográfica ---
+pycountry==24.6.1
+
 # --- Jupyter / Notebooks ---
 jupyter==1.0.0
 ipykernel==6.29.5
