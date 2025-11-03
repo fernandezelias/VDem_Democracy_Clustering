@@ -17,7 +17,7 @@ democráticas clave (libertades civiles, igualdad política, participación, etc
 ---
 
 ## 🧰 Stack Tecnológico
-- **Lenguaje:** Python 3.11
+- **Lenguaje:** Python 3.10
 - **Librerías:** Pandas, Scikit-learn, Matplotlib, Seaborn, Plotly
 - **Data:** V-Dem Country-Year Core Dataset (2024)
 
