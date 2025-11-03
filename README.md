@@ -1,7 +1,7 @@
 # 🌍 Tipologías Globales de Democracia (2024)  
 **Clustering no supervisado con datos V-Dem**
 
-![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10.19-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ![Model](https://img.shields.io/badge/ML-Unsupervised%20Learning-orange.svg)
@@ -17,8 +17,10 @@ democráticas clave (libertades civiles, igualdad política, participación, etc
 ---
 
 ## 🧰 Stack Tecnológico
-- **Lenguaje:** Python 3.10
-- **Librerías:** Pandas, Scikit-learn, Matplotlib, Seaborn, Plotly
+- **Lenguaje:** Python 3.10.19
+- **Librerías principales:**  
+  `pandas`, `numpy`, `scikit-learn`,  
+  `matplotlib`, `seaborn`, `plotly`, `kaleido`, `pycountry`
 - **Data:** V-Dem Country-Year Core Dataset (2024)
 
 ---
@@ -27,7 +29,7 @@ democráticas clave (libertades civiles, igualdad política, participación, etc
 
 1️⃣ Selección y normalización de indicadores democráticos  
 2️⃣ **PCA** → reducción de 5 dimensiones a PC1-PC2  
-3️⃣ **Elbow + Silhouette Score → k = 3**  
+3️⃣ **Elbow + Silhouette Score** → k = 3  
 4️⃣ Entrenamiento del modelo **K-Means**  
 5️⃣ Interpretación institucional de clusters  
 6️⃣ Visualización global (radar + mapa interactivo)  
@@ -45,6 +47,9 @@ democráticas clave (libertades civiles, igualdad política, participación, etc
 ### 🔹 Perfiles democráticos (Radar Chart)
 ![Radar Chart](figures/radar_clusters.png)
 
+### 🔹 Visualización PCA
+![PCA Clusters](figures/pca_clusters.png)
+
 ---
 
 ## 🧠 Tipologías resultantes
@@ -59,13 +64,18 @@ democráticas clave (libertades civiles, igualdad política, participación, etc
 ---
 
 ## 🌐 Mapa Mundo Interactivo
+
+![Vista previa del mapa](figures/map_preview.png)
+
 📌 *Explora país por país:*  
-👉 `figures/democracy_clusters_map.html`
+🔗 **Mapa interactivo:** [democracy_clusters_map.html](figures/democracy_clusters_map.html)
+
+> Si el enlace no se visualiza en GitHub, descargar o abrir localmente.
 
 ---
 
-## 📁 Datos finales
-✔ `data/processed/vdem_clustering_results.csv`  
+## 📁 Dataset final
+✔ `data/processed/vdem_clusters_2024.csv`  
 Incluye: país · PC1-PC2 · asignación final de cluster ✅
 
 ---
