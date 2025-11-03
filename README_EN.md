@@ -89,7 +89,7 @@ Includes: country · PC1–PC2 · final cluster assignment ✅
   - **Freedom House – Freedom in the World (FiW)**
   - **Economist Intelligence Unit – Democracy Index (EIU)**
 
-These comparisons will help assess the consistency of the model with internationally recognized regime typologies used in political geography and democracy studies.
+These comparisons will help assess the consistency of the model with internationally recognized regime typologies widely used in Comparative Politics and Political Geography.
 
 ---
 
