@@ -1,85 +1,97 @@
 # 🌍 Global Democracy Typologies (2024)  
-**Unsupervised clustering using V-Dem data**
+**Unsupervised clustering with V-Dem data**
 
-![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10.19-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ![Model](https://img.shields.io/badge/ML-Unsupervised%20Learning-orange.svg)
 
-🌐 Also available in Spanish: [README.md](README.md)
+🌐 Disponible en español: [README.md](README.md)
 
-This project identifies **three global political regime typologies** in 2024
-by applying unsupervised learning techniques to the **V-Dem v15** dataset.
+This project identifies **three global types of political regimes in 2024**
+using unsupervised clustering and the prestigious **V-Dem v15** dataset.
 
-We use **PCA** for dimensionality reduction and **K-Means** to classify countries
-based on core democratic attributes.
-
----
-
-## 🧰 Tech Stack
-- **Language:** Python 3.10
-- **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn, Plotly
-- **Dataset:** V-Dem Country-Year Core (2024)
+It combines **PCA** and **K-Means** techniques to group countries based on key
+democratic dimensions (civil liberties, political equality, participation, etc.).
 
 ---
 
-## 📊 Workflow
-
-1️⃣ Variable selection + normalization  
-2️⃣ **PCA** → PC1 & PC2 as democracy axes  
-3️⃣ **Elbow + Silhouette → k = 3**  
-4️⃣ **K-Means** clustering  
-5️⃣ Cluster interpretation and validation  
-6️⃣ Global visualization (radar + map)  
-7️⃣ Export of labeled dataset ✅
+## 🧰 Technology Stack
+- **Language:** Python 3.10.19
+- **Libraries:**  
+  `pandas`, `numpy`, `scikit-learn`,  
+  `matplotlib`, `seaborn`, `plotly`, `kaleido`, `pycountry`
+- **Data Source:** V-Dem Country-Year Core Dataset (2024)
 
 ---
 
-## 📈 Key Findings
+## 📊 Reproducible Workflow
 
-### Optimal number of clusters
+1️⃣ Democratic indicator selection and normalization  
+2️⃣ **PCA** → dimensionality reduction to PC1–PC2  
+3️⃣ **Elbow + Silhouette Score** → k = 3  
+4️⃣ K-Means clustering  
+5️⃣ Institutional interpretation of clusters  
+6️⃣ Global visualization (radar + interactive map)  
+7️⃣ Labelled dataset export ✅
+
+---
+
+## 📈 Key Results
+
+### 🔹 Optimal cluster validation
 ![Elbow Method](figures/elbow_method.png)
 
 ![Silhouette Score](figures/silhouette_score.png)
 
-### Cluster profiles (Radar Chart)
+### 🔹 Democratic profile comparison (Radar Chart)
 ![Radar Chart](figures/radar_clusters.png)
+
+### 🔹 PCA Visualization
+![PCA Clusters](figures/pca_clusters.png)
 
 ---
 
-## 🧠 Identified regime typologies
-| Cluster | Meaning | Main World Regions |
-|--------:|---------|------------------|
-| 🟢 2 | Full democracies | Western Europe, Oceania, North America, Japan |
-| 🟡 0 | Hybrid / transitioning democracies | Latin America, Eastern Europe, North Africa |
+## 🧠 Cluster Typologies
+
+| Cluster | Interpretation | Main regions |
+|--------:|----------------|--------------|
+| 🟢 2 | Consolidated democracies | Western Europe, Oceania, North America, Japan |
+| 🟡 0 | Intermediate / hybrid democracies | Latin America, Eastern Europe, North Africa |
 | 🔴 1 | Authoritarian regimes | Middle East, Central Asia, Sub-Saharan Africa |
 
-📍 **Argentina** → Cluster 0: intermediate democracy with institutional weaknesses
+📍 **Argentina** → Cluster 0: intermediate democracy with institutional tensions
 
 ---
 
 ## 🌐 Interactive World Map
-📌 Open the interactive version here:  
-👉 `figures/democracy_clusters_map.html`
+
+![Map preview](figures/map_preview.png)
+
+📌 Explore country by country:  
+🔗 **Interactive map:** [democracy_clusters_map.html](figures/democracy_clusters_map.html)
+
+> If GitHub does not render the HTML preview, download and open locally.
 
 ---
 
-## 📁 Output Dataset
-✔ `data/processed/vdem_clustering_results.csv`  
-Includes: country · PC1-PC2 scores · final cluster assignment ✅
+## 📁 Final Dataset
+
+✔ `data/processed/vdem_clusters_2024.csv`  
+Includes: country · PC1–PC2 · final cluster assignment ✅
 
 ---
 
 ## 🚀 Future Work
-- **Time-series evolution** of democracy (1990-2024)
-- Alternative clustering: **DBSCAN, GMM**
-- Triangulation with **external democracy indexes** (FH, EIU, Polity5)
+- Extend analysis to **time series (1990–2024)**
+- Test alternative models: **DBSCAN, Gaussian Mixture Models**
+- Compare against external classifications (Freedom House, EIU, Polity5)
 
 ---
 
 ## ✍️ Author
 **Elías Fernández**  
-📧 Email: fernandezelias86@gmail.com  
+📧 Contact: fernandezelias86@gmail.com  
 🔗 LinkedIn: www.linkedin.com/in/eliasfernandez208
 
 ---
