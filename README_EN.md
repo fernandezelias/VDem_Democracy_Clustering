@@ -17,7 +17,7 @@ based on core democratic attributes.
 ---
 
 ## 🧰 Tech Stack
-- **Language:** Python 3.11
+- **Language:** Python 3.10
 - **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn, Plotly
 - **Dataset:** V-Dem Country-Year Core (2024)
 
