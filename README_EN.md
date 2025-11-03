@@ -69,9 +69,9 @@ democratic dimensions (civil liberties, political equality, participation, etc.)
 ![Map preview](figures/map_preview.png)
 
 📌 Explore country by country:  
-🔗 **Interactive map:** [democracy_clusters_map.html](figures/democracy_clusters_map.html)
+🔗 **Interactive map online:**  
+https://fernandezelias.github.io/VDem_Democracy_Clustering/figures/democracy_clusters_map.html
 
-> If GitHub does not render the HTML preview, download and open locally.
 
 ---
 
