@@ -85,7 +85,11 @@ Includes: country · PC1–PC2 · final cluster assignment ✅
 ## 🚀 Future Work
 - Extend analysis to **time series (1990–2024)**
 - Test alternative models: **DBSCAN, Gaussian Mixture Models**
-- Compare against external classifications (Freedom House, EIU, Polity5)
+- Compare clustering results with external democracy classifications, such as:
+  - **Freedom House – Freedom in the World (FiW)**
+  - **Economist Intelligence Unit – Democracy Index (EIU)**
+
+These comparisons will help assess the consistency of the model with internationally recognized regime typologies used in political geography and democracy studies.
 
 ---
 
