@@ -86,7 +86,7 @@ Incluye: país · PC1-PC2 · asignación final de cluster ✅
   - **Freedom House – Freedom in the World (FiW)**
   - **Economist Intelligence Unit – Democracy Index (EIU)**
 
-Estas comparaciones permitirán evaluar la coherencia del modelo con tipologías reconocidas internacionalmente y utilizadas en geografía política.
+Estas comparaciones permitirán evaluar la coherencia del modelo con tipologías reconocidas internacionalmente y ampliamente utilizadas en Política Comparada y Geografía Política.
 
 
 ---
