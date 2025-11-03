@@ -27,8 +27,6 @@ logs/
 .idea/
 .DS_Store
 Thumbs.db
-.cursorignore
-.cursorindexingignore
 
 # --- Datos y artefactos de ML ---
 # Ignorar todos los datos crudos
@@ -40,30 +38,22 @@ datasets/**
 *.xlsx
 *.csv
 
-# Re-incluir estructura mínima de carpetas
+# Re-incluir estructura mínima y procesados
 !data/
 !data/raw/
 !data/processed/
 !data/.gitkeep
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-
-# Permitimos archivos procesados pequeños
 !data/processed/*.csv
 !data/processed/*.parquet
 
 # Ignorar explícitamente dataset grande V-Dem
 data/raw/V-Dem-CY-Core-v15.csv
 
-# --- Modelos y salidas ---
-models/
-*.pkl
-*.joblib
-outputs/
+# --- Figuras (por defecto ignoradas, salvo las exportadas)---
 figures/
-reports/
-
-# --- Tracking local (MLflow / DVC) ---
-mlruns/
-.mlflow/
-metrics.json
+!figures/
+!figures/*.png
+!figures/*.html
+!figures/.gitkeep
