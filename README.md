@@ -82,7 +82,12 @@ Incluye: país · PC1-PC2 · asignación final de cluster ✅
 ## 🚀 Próximos pasos
 - Extender análisis a **series temporales (1990-2024)**
 - Probar modelos alternativos: **DBSCAN, Gaussian Mixture Models**
-- Comparar con clasificaciones externas (Freedom House, EIU, Polity5)
+- Comparar los resultados del clustering con clasificaciones externas de democracia, como:
+  - **Freedom House – Freedom in the World (FiW)**
+  - **Economist Intelligence Unit – Democracy Index (EIU)**
+
+Estas comparaciones permitirán evaluar la coherencia del modelo con tipologías reconocidas internacionalmente y utilizadas en geografía política.
+
 
 ---
 
