@@ -68,9 +68,8 @@ democráticas clave (libertades civiles, igualdad política, participación, etc
 ![Vista previa del mapa](figures/map_preview.png)
 
 📌 *Explora país por país:*  
-🔗 **Mapa interactivo:** [democracy_clusters_map.html](figures/democracy_clusters_map.html)
-
-> Si el enlace no se visualiza en GitHub, descargar o abrir localmente.
+🔗 **Mapa interactivo online:**  
+https://fernandezelias.github.io/VDem_Democracy_Clustering/figures/democracy_clusters_map.html
 
 ---
 
