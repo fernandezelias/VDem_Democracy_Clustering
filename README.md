@@ -88,7 +88,6 @@ Incluye: país · PC1-PC2 · asignación final de cluster ✅
 
 Estas comparaciones permitirán evaluar la coherencia del modelo con tipologías reconocidas internacionalmente y ampliamente utilizadas en Política Comparada y Geografía Política.
 
-
 ---
 
 ## ✍️ Autor
