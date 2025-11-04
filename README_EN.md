@@ -1,48 +1,49 @@
-# 🌍 Global Democracy Typologies (2024)  
-**Unsupervised clustering with V-Dem data**
+# 🌍 Global Typologies of Democracy (2024)  
+**Unsupervised Clustering with V-Dem Data**
 
 ![Python](https://img.shields.io/badge/Python-3.10.19-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ![Model](https://img.shields.io/badge/ML-Unsupervised%20Learning-orange.svg)
+![Domain](https://img.shields.io/badge/Field-Political%20Science-purple)
 
-🌐 Disponible en español: [README.md](README.md)
+🇪🇸 Disponible en español: [README.md](README.md)
 
-This project identifies **three global types of political regimes in 2024** using unsupervised clustering and the **V-Dem v15** dataset. V-Dem is one of the leading datasets for comparative democracy research worldwide.
+This project identifies **three global types of political regimes in 2024** using unsupervised clustering and the **V-Dem v15** dataset, one of the leading sources for comparative democracy research worldwide.
 
-It combines **PCA** and **K-Means** techniques to group countries based on key democratic dimensions (civil liberties, political equality, participation, etc.).
+We combine **PCA** and **K-Means** to group countries based on key democratic dimensions (civil liberties, political equality, participation, etc.).
 
 ---
 
-## 🧰 Technology Stack
+## 🧰 Tech Stack
 - **Language:** Python 3.10.19
 - **Libraries:**  
   `pandas`, `numpy`, `scikit-learn`,  
   `matplotlib`, `seaborn`, `plotly`, `kaleido`, `pycountry`
-- **Data Source:** V-Dem Country-Year Core Dataset (2024)
+- **Data:** V-Dem Country-Year Core Dataset (2024)
 
 ---
 
 ## 📊 Reproducible Workflow
 
-1️⃣ Democratic indicator selection and normalization  
+1️⃣ Indicator selection and normalization  
 2️⃣ **PCA** → dimensionality reduction to PC1–PC2  
 3️⃣ **Elbow + Silhouette Score** → k = 3  
-4️⃣ K-Means clustering  
+4️⃣ Model training with **K-Means**  
 5️⃣ Institutional interpretation of clusters  
 6️⃣ Global visualization (radar + interactive map)  
-7️⃣ Labelled dataset export ✅
+7️⃣ Export of the labeled dataset ✅
 
 ---
 
-## 📈 Key Results
+## 📈 Main Results
 
-### 🔹 Optimal cluster validation
+### 🔹 Optimal number of clusters
 ![Elbow Method](figures/elbow_method.png)
 
 ![Silhouette Score](figures/silhouette_score.png)
 
-### 🔹 Democratic profile comparison (Radar Chart)
+### 🔹 Democratic profiles (Radar Chart)
 ![Radar Chart](figures/radar_clusters.png)
 
 ### 🔹 PCA Visualization
@@ -50,15 +51,14 @@ It combines **PCA** and **K-Means** techniques to group countries based on key d
 
 ---
 
-## 🧠 Cluster Typologies
-
-| Cluster | Interpretation | Main regions |
-|--------:|----------------|--------------|
+## 🧠 Resulting Typologies
+| Cluster | Interpretation | Predominant Regions |
+|--------:|----------------|-------------------|
 | 🟢 2 | Consolidated democracies | Western Europe, Oceania, North America, Japan |
 | 🟡 0 | Intermediate / hybrid democracies | Latin America, Eastern Europe, North Africa |
 | 🔴 1 | Authoritarian regimes | Middle East, Central Asia, Sub-Saharan Africa |
 
-📍 **Argentina** → Cluster 0: intermediate democracy with institutional tensions
+📍 **Argentina** → Cluster 0: electoral democracy with **limitations in political equality and checks on power**, according to V-Dem indicators
 
 ---
 
@@ -66,28 +66,25 @@ It combines **PCA** and **K-Means** techniques to group countries based on key d
 
 ![Map preview](figures/map_preview.png)
 
-📌 Explore country by country:  
-🔗 **Interactive map online:**  
+🔗 **Online interactive map:**  
 https://fernandezelias.github.io/VDem_Democracy_Clustering/figures/democracy_clusters_map.html
-
 
 ---
 
 ## 📁 Final Dataset
-
 ✔ `data/processed/vdem_clusters_2024.csv`  
 Includes: country · PC1–PC2 · final cluster assignment ✅
 
 ---
 
-## 🚀 Future Work
-- Extend analysis to **time series (1990–2024)**
-- Test alternative models: **DBSCAN, Gaussian Mixture Models**
-- Compare clustering results with external democracy classifications, such as:
+## 🚀 Future work
+- Extend to **time series (1990–2024)**
+- Test alternative clustering methods: **DBSCAN, Gaussian Mixture Models**
+- Compare with external democracy classifications, such as:
   - **Freedom House – Freedom in the World (FiW)**
   - **Economist Intelligence Unit – Democracy Index (EIU)**
 
-These comparisons will help assess the consistency of the model with internationally recognized regime typologies widely used in Comparative Politics and Political Geography.
+These comparisons will help assess the consistency of the model with internationally recognized typologies widely used in Comparative Politics and Political Geography.
 
 ---
 

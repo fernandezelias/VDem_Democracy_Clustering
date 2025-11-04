@@ -5,10 +5,11 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ![Model](https://img.shields.io/badge/ML-Unsupervised%20Learning-orange.svg)
+![Domain](https://img.shields.io/badge/Field-Political%20Science-purple)
 
 🌐 Disponible también en inglés: [README_EN.md](README_EN.md)
 
-Este proyecto identifica **tres tipos globales de regímenes políticos en 2024** utilizando clustering no supervisado y datos del dataset **V-Dem v15**. V-Dem es una de las principales bases de datos internacionales para el estudio comparado de la democracia.
+Este proyecto identifica **tres tipos globales de regímenes políticos en 2024** utilizando clustering no supervisado y datos del dataset **V-Dem v15**, una de las principales bases de datos internacionales para el estudio comparado de la democracia.
 
 Se combinan técnicas de **PCA** y **K-Means** para agrupar países según dimensiones democráticas clave (libertades civiles, igualdad política, participación, etc.).
 
@@ -57,7 +58,7 @@ Se combinan técnicas de **PCA** y **K-Means** para agrupar países según dimen
 | 🟡 0 | Democracias intermedias / híbridas | América Latina, Europa del Este, Norte de África |
 | 🔴 1 | Regímenes autoritarios | Medio Oriente, Asia Central, África Subsahariana |
 
-📍 **Argentina** → Cluster 0: democracia intermedia con tensiones institucionales
+📍 **Argentina** → Cluster 0: democracia electoral con **limitaciones en igualdad política y controles al poder**, según indicadores V-Dem
 
 ---
 
