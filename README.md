@@ -8,11 +8,9 @@
 
 🌐 Disponible también en inglés: [README_EN.md](README_EN.md)
 
-Este proyecto identifica **tres tipos globales de regímenes políticos en 2024**
-utilizando clustering no supervisado y datos del prestigioso dataset **V-Dem v15**.
+Este proyecto identifica **tres tipos globales de regímenes políticos en 2024** utilizando clustering no supervisado y datos del dataset **V-Dem v15**. V-Dem es una de las principales bases de datos internacionales para el estudio comparado de la democracia.
 
-Se combinan técnicas de **PCA** y **K-Means** para agrupar países según dimensiones
-democráticas clave (libertades civiles, igualdad política, participación, etc.).
+Se combinan técnicas de **PCA** y **K-Means** para agrupar países según dimensiones democráticas clave (libertades civiles, igualdad política, participación, etc.).
 
 ---
 
