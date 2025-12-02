@@ -1,13 +1,13 @@
 # 🌍 Tipologías Globales de Democracia (2024)  
 **Clustering no supervisado con datos V-Dem**
 
+🌐 Available in: [English](README_EN.md)
+
 ![Python](https://img.shields.io/badge/Python-3.10.19-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ![Model](https://img.shields.io/badge/ML-Unsupervised%20Learning-orange.svg)
 ![Domain](https://img.shields.io/badge/Field-Political%20Science-purple)
-
-🌐 Disponible también en inglés: [README_EN.md](README_EN.md)
 
 Este proyecto identifica **tres tipos globales de regímenes políticos en 2024** utilizando clustering no supervisado y datos del dataset **V-Dem v15**, una de las principales bases de datos internacionales para el estudio comparado de la democracia.
 
