@@ -1,7 +1,7 @@
 # 🌍 Global Typologies of Democracy (2024)  
 **Unsupervised Clustering with V-Dem Data**
 
-🌐 Disponible en: [Español](README.md)
+🌐 Disponible en [Español](README.md)
 
 ![Python](https://img.shields.io/badge/Python-3.10.19-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)

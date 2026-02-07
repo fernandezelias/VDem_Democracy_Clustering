@@ -1,7 +1,7 @@
 # 🌍 Tipologías Globales de Democracia (2024)  
 **Clustering no supervisado con datos V-Dem**
 
-🌐 Available in: [English](README_EN.md)
+🌐 Available in [English](README_EN.md)
 
 ![Python](https://img.shields.io/badge/Python-3.10.19-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
