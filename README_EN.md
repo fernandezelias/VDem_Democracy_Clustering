@@ -88,9 +88,8 @@ These comparisons will help assess the consistency of the model with internation
 
 ---
 
-## ✍️ Author
-**Elías Fernández**  
-📧 Contact: fernandezelias86@gmail.com  
+✍️ **Author**: Elías Fernández
+📧 **Contact**: fernandezelias86@gmail.com  
 🔗 LinkedIn: [Profile](https://www.linkedin.com/in/eliasfernandez208)
 
 ---
