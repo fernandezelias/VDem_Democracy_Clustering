@@ -89,11 +89,17 @@ Estas comparaciones permitirán evaluar la coherencia del modelo con tipologías
 
 ---
 
-## ✍️ Autor
-**Elías Fernández**  
-📧 Contacto: fernandezelias86@gmail.com  
-🔗 LinkedIn: [Perfil](https://www.linkedin.com/in/eliasfernandez208)
+## 🪪 Licencia
+Este proyecto se distribuye bajo la licencia MIT.  
+Ver archivo [LICENSE](LICENSE).
 
 ---
 
-📌 Licencia: **MIT**
+## ✍️ Autor
+**Elías Fernández**
+
+---
+
+## 📫 Contacto
+📧 [fernandezelias86@gmail.com](mailto:fernandezelias86@gmail.com)  
+🔗 LinkedIn: 
