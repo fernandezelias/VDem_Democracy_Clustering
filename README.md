@@ -102,4 +102,4 @@ Ver archivo [LICENSE](LICENSE).
 
 ## 📫 Contacto
 📧 [fernandezelias86@gmail.com](mailto:fernandezelias86@gmail.com)  
-🔗 LinkedIn: 
+🔗 LinkedIn: [Perfil](https://www.linkedin.com/in/eliasfernandez208)
